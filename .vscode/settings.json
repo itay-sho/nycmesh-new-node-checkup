@@ -1,0 +1,12 @@
+{
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ],
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSaveMode": "modifications",
+        "editor.wordBasedSuggestions": false,
+    }
+}

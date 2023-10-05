@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Run API",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "checklink:app",
+                "--reload",
+            ],
+            "justMyCode": true
+        }
+    ]
+}
