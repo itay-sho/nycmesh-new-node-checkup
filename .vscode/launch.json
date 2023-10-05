@@ -10,6 +10,17 @@
                 "--reload",
             ],
             "justMyCode": true
+        },
+        {
+            "name": "DB migration",
+            "type": "python",
+            "request": "launch",
+            "module": "alembic",
+            "cwd": "${workspaceFolder}/checklink",
+            "args": [
+                "upgrade",
+                "head"
+            ],
         }
     ]
 }
